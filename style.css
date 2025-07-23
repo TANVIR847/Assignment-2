@@ -84,3 +84,61 @@ li a{
 }
 
 
+
+
+
+
+/* main */
+
+main{
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.plants h1{
+    padding-bottom: 16px;
+    font-family: "Noto Serif", serif;
+    font-size: 50px;
+}
+.plants p{
+    font-size: 22px;
+    font-family: "Inter", serif;
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.card{
+    width: 270px;
+    height: 484px;
+}
+.card img{
+    padding-bottom: 30px;
+}
+.card-text p{
+    font-size: 22px;
+    font-family: "inter", serif;
+    padding: 3px;
+}
+
+button{
+    padding: 17px;
+    font-size: 14px;
+    font-family: "Inter", serif;
+    border: none;
+    background-color: #FF5C00;
+    color: aliceblue;
+    margin-top: 30px;
+    width: 100%;
+    transition: 0.5s;
+}
+button:hover{
+    transform: scale(1.06);
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 60px 10px;
+}
