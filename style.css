@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d3d3ff15;
+    background-size: cover;
+}
+
+nav{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+ul{
+    display: flex;
+    gap: 48px;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: gray;
+    transition: 0.5s;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+}
+.cart i{
+    font-size: 24px;
+}
+.cart a{
+    color: black;
+    padding-left: 3px;
+}
+
+
+/* banner */
+
+.banner{
+    width: 75%;
+    display: flex;
+    align-items: end;
+    margin: auto;
+    margin-top: 120px;
+}
+
+
+
+
+.banner-text{
+    width: 50%;
+}
+.banner-text h1{
+    font-family: "Noto Serif", serif;
+    font-size: 65px;
+    color: #FF5C00;
+}
+.banner-text p{
+    font-family: "Inter", serif;
+    font-size: 22px;
+    color: grey;
+}
+
+
+
+.banner-img{
+    width: 50%;
+    text-align: right;
+}
+
+
