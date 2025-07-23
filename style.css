@@ -141,4 +141,51 @@ button:hover{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 60px 10px;
+    margin-bottom: 210px;
+}
+
+
+
+/* plants-lover */
+
+.plants-lover{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.plants-lover-img{
+    position: relative;
+}
+
+.badge img{
+    width: 260px;
+    position: absolute;
+    top: -0;
+    right: -120px;
+    margin-top: -110px;
+}
+
+.plants-lover-text{
+    width: 40%;
+    text-align: left;
+}
+.plants-lover-text h1{
+    font-family: "Noto Serif", serif;
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.plants-lover-text p{
+    font-size: 22px;
+    font-family: "Inter", serif;
+    padding-bottom: 20px;
+}
+
+.plants-lover-text ul{
+    display: flex;
+    flex-direction: column;
+    list-style:disc;
+    color: grey;
 }
